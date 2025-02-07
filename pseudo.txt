@@ -1,0 +1,61 @@
+1. An algorithm that asks a user to enter a positive number repeatedly until the user enter a zero value, then determines and outputs the largest of the numbers that were input. 
+
+Ask user to input positive numbers (Multiple times)
+	Store numbers'
+# User will have to be asked to enter 0 or done when all his numbers were entered
+if user enters 0 or Done
+	print largest number 
+
+2. An algorithm that requests a user to input their name and then stores their name in a variable called first_name along with the phrase "Hello, World" 
+
+Ask User to input first_name
+Print Hello world + first_name  
+
+
+3.An algorithm that reads an arbitrary number of integers and then return their arithmetic average
+Ask user to input numbers
+
+# User will have to be asked when he is "done"
+	Add each user input to total_sum
+# Each number can be printed as entered
+If user inputs "done"
+	input_sum / number of entries
+print "the average is:" , average
+
+
+4. An algorithm that reads a grocery list and prints out the products (In alphabetical order ) that are still left to buy.
+
+#the above question presumes that the grocery list is already entered. 
+
+print grocery list in alphabetical order
+# Done parameter per item will be needed. 
+ask user to input "done" when item is collected 
+If item == done, remove item from list
+print updated grocery list in alphabetical order. 
+If all items were selected ("done")
+	print "All items collected"
+
+5.An Algorithm for the flowchart: 
+
+#This one is interesting for me, I am not sure if this is a trick question, I thought the flowchart is the pseudocode. I hope the below is correct :-) 
+
+Start
+    Read X, Y
+    # Presumably, X and Y were already input; otherwise, input_X and input_Y will be needed.
+    S = X + Y
+    A = S / 2
+    P = X * Y
+    Print S, A, P
+Stop
+
+
+#I hope the above is correct, three, and five was interesting and I am hoping that I did not do it too basic, if I need to elaborate more per item please let me know. I think the easiest one was number two. 
+
+
+Why do software engineers prefer dark mode?
+
+Because light attracts bugs! 
+
+
+
+
