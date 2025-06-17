@@ -70,7 +70,7 @@ while True:
     if result:
         break
     else:
-        print(Fore.RED + "No such user exists, try again!!")
+        print(Fore.RED + "⚠️ No matching user found. Please try again.")
 
 
 while True:
