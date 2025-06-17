@@ -279,7 +279,21 @@ while True:
         except ValueError:
             print(Fore.RED + "Please enter a number! 🔢 ")
 
-    #  Remove a book from the Database
+    """
+    Handles the removal of a book from the database.
+
+    Prompts the user to enter the ID of the book they wish to delete.
+    If a matching book is found, it displays the book’s details and
+    asks for confirmation before deleting it. If the user confirms,
+    the book is permanently removed from the database.
+
+    Includes error handling for:
+    - Invalid (non-numeric) input
+    - Non-existent book ID
+    - Cancellation of deletion by the user
+    """
+
+
     elif menu == '3':
         try:
             del_book = int(input(Fore.LIGHTGREEN_EX + "\n Enter an ID of "
